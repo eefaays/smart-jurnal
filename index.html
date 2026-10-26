@@ -2,31 +2,47 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Smart Jurnal Guru</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mengarahkan ke Smart Jurnal...</title>
+  <meta http-equiv="refresh" content="0; url=https://script.google.com/a/macros/smaitalirsyadpwt.sch.id/s/AKfycbyqnGwQKaQVnLyVnakuhNQBa_TK_OQDrnI72h-n0qQepQ_O2t_Orx5Ruyukud8NYr0n/exec">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body, html {
-      width: 100%;
-      height: 100%;
+    body {
       background-color: #0f172a;
-      overflow: hidden;
+      color: white;
       font-family: 'Plus Jakarta Sans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
     }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      display: block;
+    .loader {
+      border: 4px solid rgba(255, 255, 255, 0.1);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border-left-color: #10b981;
+      animation: spin 1s linear infinite;
+      margin-bottom: 16px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    a {
+      color: #34d399;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+      display: inline-block;
     }
   </style>
 </head>
 <body>
-  <!-- Ganti URL di bawah ini dengan URL Web App Apps Script Anda yang asli -->
-  <iframe src="https://script.google.com/a/macros/smaitalirsyadpwt.sch.id/s/AKfycbyqnGwQKaQVnLyVnakuhNQBa_TK_OQDrnI72h-n0qQepQ_O2t_Orx5Ruyukud8NYr0n/exec" allow="geolocation; microphone; camera; fullscreen"></iframe>
+  <div class="loader"></div>
+  <p>Sedang memuat Smart Jurnal Guru...</p>
+  <p style="font-size: 11px; color: #94a3b8;">Jika tidak otomatis berpindah, <a href="https://script.google.com/a/macros/smaitalirsyadpwt.sch.id/s/AKfycbyqnGwQKaQVnLyVnakuhNQBa_TK_OQDrnI72h-n0qQepQ_O2t_Orx5Ruyukud8NYr0n/exec">klik di sini</a>.</p>
 </body>
 </html>
